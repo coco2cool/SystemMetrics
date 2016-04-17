@@ -1,0 +1,685 @@
+{
+  "took" : 81,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 5398,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_5OEWE3jmg6nic",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:27.815Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/sbin/cups-browsed",
+          "cpu" : {
+            "user" : 40,
+            "user_p" : 0,
+            "system" : 20,
+            "total" : 60,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 159674368,
+            "rss" : 7970816,
+            "rss_p" : 0,
+            "share" : 7094272
+          },
+          "name" : "cups-browsed",
+          "pid" : 797,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_5OEWE3jmg6nig",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:27.817Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/bin/sh /usr/bin/mysqld_safe",
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 30,
+            "total" : 30,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 4579328,
+            "rss" : 1744896,
+            "rss_p" : 0,
+            "share" : 1589248
+          },
+          "name" : "mysqld_safe",
+          "pid" : 845,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "mysql"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_5OEWE3jmg6nim",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:27.820Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/sbin/agetty --noclear tty1 linux",
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 20533248,
+            "rss" : 2215936,
+            "rss_p" : 0,
+            "share" : 2056192
+          },
+          "name" : "agetty",
+          "pid" : 1275,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_6OEWE3jmg6niq",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:27.822Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "firegl",
+          "pid" : 1322,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_6OEWE3jmg6nis",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:27.823Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "firegl",
+          "pid" : 1324,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_6OEWE3jmg6ni1",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:41.802Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/bin/gnome-keyring-daemon --daemonize --login",
+          "cpu" : {
+            "user" : 140,
+            "user_p" : 0,
+            "system" : 30,
+            "total" : 170,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 143437824,
+            "rss" : 7794688,
+            "rss_p" : 0,
+            "share" : 7065600
+          },
+          "name" : "gnome-keyring-d",
+          "pid" : 2102,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "coco"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_6OEWE3jmg6ni3",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:41.803Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "upstart-udev-bridge --daemon --user",
+          "cpu" : {
+            "user" : 20,
+            "user_p" : 0,
+            "system" : 20,
+            "total" : 40,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 25022464,
+            "rss" : 184320,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "upstart-udev-br",
+          "pid" : 2283,
+          "ppid" : 2104,
+          "state" : "sleeping",
+          "username" : "coco"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_6OEWE3jmg6ni5",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:41.805Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/lib/x86_64-linux-gnu/hud/window-stack-bridge",
+          "cpu" : {
+            "user" : 270,
+            "user_p" : 0,
+            "system" : 40,
+            "total" : 310,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 77037568,
+            "rss" : 9551872,
+            "rss_p" : 0,
+            "share" : 8929280
+          },
+          "name" : "window-stack-br",
+          "pid" : 2299,
+          "ppid" : 2104,
+          "state" : "sleeping",
+          "username" : "coco"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "filesystem",
+      "_id" : "AVQmSHDYOEWE3jmg6ni-",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:12:41.827Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "udev",
+          "total" : 3594133504,
+          "used" : 0,
+          "used_p" : 0,
+          "free" : 3594133504,
+          "avail" : 3594133504,
+          "files" : 877474,
+          "free_files" : 876964,
+          "mount_point" : "/dev"
+        },
+        "type" : "filesystem"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "filesystem",
+      "_id" : "AVQmSHDYOEWE3jmg6njF",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:12:41.828Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "tmpfs",
+          "total" : 3605528576,
+          "used" : 0,
+          "used_p" : 0,
+          "free" : 3605528576,
+          "avail" : 3605528576,
+          "files" : 880256,
+          "free_files" : 880239,
+          "mount_point" : "/sys/fs/cgroup"
+        },
+        "type" : "filesystem"
+      }
+    } ]
+  }
+}
+coco@RioCocO-Lenovo-G50-45:~/elasticsearch-2.3.1/bin$ curl -XGET 'http://localhost:9200/topbeat-*/_search?pretty'
+{
+  "took" : 9,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 6423,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_5OEWE3jmg6nic",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:27.815Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/sbin/cups-browsed",
+          "cpu" : {
+            "user" : 40,
+            "user_p" : 0,
+            "system" : 20,
+            "total" : 60,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 159674368,
+            "rss" : 7970816,
+            "rss_p" : 0,
+            "share" : 7094272
+          },
+          "name" : "cups-browsed",
+          "pid" : 797,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_5OEWE3jmg6nig",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:27.817Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/bin/sh /usr/bin/mysqld_safe",
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 30,
+            "total" : 30,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 4579328,
+            "rss" : 1744896,
+            "rss_p" : 0,
+            "share" : 1589248
+          },
+          "name" : "mysqld_safe",
+          "pid" : 845,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "mysql"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_5OEWE3jmg6nim",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:27.820Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/sbin/agetty --noclear tty1 linux",
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 20533248,
+            "rss" : 2215936,
+            "rss_p" : 0,
+            "share" : 2056192
+          },
+          "name" : "agetty",
+          "pid" : 1275,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_6OEWE3jmg6niq",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:27.822Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "firegl",
+          "pid" : 1322,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_6OEWE3jmg6nis",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:27.823Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "firegl",
+          "pid" : 1324,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_6OEWE3jmg6ni1",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:41.802Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/bin/gnome-keyring-daemon --daemonize --login",
+          "cpu" : {
+            "user" : 140,
+            "user_p" : 0,
+            "system" : 30,
+            "total" : 170,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 143437824,
+            "rss" : 7794688,
+            "rss_p" : 0,
+            "share" : 7065600
+          },
+          "name" : "gnome-keyring-d",
+          "pid" : 2102,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "coco"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_6OEWE3jmg6ni3",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:41.803Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "upstart-udev-bridge --daemon --user",
+          "cpu" : {
+            "user" : 20,
+            "user_p" : 0,
+            "system" : 20,
+            "total" : 40,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 25022464,
+            "rss" : 184320,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "upstart-udev-br",
+          "pid" : 2283,
+          "ppid" : 2104,
+          "state" : "sleeping",
+          "username" : "coco"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQmSG_6OEWE3jmg6ni5",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:10:41.805Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/lib/x86_64-linux-gnu/hud/window-stack-bridge",
+          "cpu" : {
+            "user" : 270,
+            "user_p" : 0,
+            "system" : 40,
+            "total" : 310,
+            "start_time" : "02:00"
+          },
+          "mem" : {
+            "size" : 77037568,
+            "rss" : 9551872,
+            "rss_p" : 0,
+            "share" : 8929280
+          },
+          "name" : "window-stack-br",
+          "pid" : 2299,
+          "ppid" : 2104,
+          "state" : "sleeping",
+          "username" : "coco"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "filesystem",
+      "_id" : "AVQmSHDYOEWE3jmg6ni-",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:12:41.827Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "udev",
+          "total" : 3594133504,
+          "used" : 0,
+          "used_p" : 0,
+          "free" : 3594133504,
+          "avail" : 3594133504,
+          "files" : 877474,
+          "free_files" : 876964,
+          "mount_point" : "/dev"
+        },
+        "type" : "filesystem"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "filesystem",
+      "_id" : "AVQmSHDYOEWE3jmg6njF",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T22:12:41.828Z",
+        "beat" : {
+          "hostname" : "RioCocO-Lenovo-G50-45",
+          "name" : "RioCocO-Lenovo-G50-45"
+        },
+        "count" : 1,
+        "fs" : {
+          "device_name" : "tmpfs",
+          "total" : 3605528576,
+          "used" : 0,
+          "used_p" : 0,
+          "free" : 3605528576,
+          "avail" : 3605528576,
+          "files" : 880256,
+          "free_files" : 880239,
+          "mount_point" : "/sys/fs/cgroup"
+        },
+        "type" : "filesystem"
+      }
+    } ]
+  }
+}
